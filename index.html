@@ -6,11 +6,40 @@
 
     <style>
     a {
-      color: green;
+      color: red;
     }
     div {
       border: 1px solid black;
     }
+
+    div a {
+      color: green;
+    }
+
+    li {
+      border: 1px solid black;
+    }
+
+    #exec-bio{
+      background-color: lightgray;
+    }
+
+    .bio-box {
+      border: 1px solid black;
+    }
+
+    .bio-box a {
+      color: green;
+    }
+
+    #orange-field {
+      background-color: orange;
+    }
+
+    .azure {
+      background-color: azure;
+    }
+
     </style>
 
   </head>
@@ -18,7 +47,7 @@
     <h1>I'm an h1</h1>
     <ul>
       <li>
-        <a href="http://example.com/" >Link</a>
+        <a id=orange-field href="http://example.com/" >Link</a>
       </li>
       <li>
         <a href="http://example.com/" >Link</a>
@@ -28,17 +57,17 @@
       </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div>
-      <a href="http://example.com/" style="color: green;">I'm a link</a>
+    <div id="exec-bio" class="bio-box azure">
+      <a href="http://example.com/" >I'm a link</a>
     </div>
-    <div>
-      <a href="http://example.com/" style="color: green;">I'm a link</a>
+    <div class="bio-box azure">
+      <a href="http://example.com/" >I'm a link</a>
     </div>
-    <div>
-      <a href="http://example.com/" style="color: green;">I'm a link</a>
+    <div class="bio-box azure">
+      <a href="http://example.com/" >I'm a link</a>
     </div>
-    <div>
-      <a href="http://example.com/" style="color: green;">I'm a link</a>
+    <div class="bio-box azure">
+      <a href="http://example.com/" >I'm a link</a>
     </div>
   </body>
 </html>
